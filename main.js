@@ -10,7 +10,7 @@ bot.registry.registerCommandsIn(__dirname + '/commands');
 global.servers = {};
 
 bot.on('ready', () => {
-  console.log('PRONTO');
+  console.log('Funcionando...');
 });
 
 bot.on('message', function(message) {
@@ -43,7 +43,7 @@ bot.on('message', function(message) {
    }
 
    if(message.content == 'comandos') {
-    message.channel.send('Comandos Do Servidor: quemsou, !tocar (por enquanto eu só funciono com links do youtube, me desculpe), !sair');
+    message.channel.send('Comandos Do Servidor == Mensagens Aleatorias Sobre o GAME Bosta Que Você Joga: quemsou | Musical (por enquanto só funciona com links do youtube, me desculpe): !tocar & !sair | OS ÚNICOS COMANDOS QUE PRECISAM DE EXCLAMAÇÃO "!" SÃO OS DO BOT MUSICAL');
    }
 });
 
