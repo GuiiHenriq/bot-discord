@@ -43,7 +43,7 @@ bot.on('message', function(message) {
    }
 
    if(message.content == 'comandos') {
-    message.channel.send('Comandos Do Servidor == Mensagens Aleatorias Sobre o GAME Bosta Que Você Joga: quemsou | Musical (por enquanto só funciona com links do youtube, me desculpe): !tocar & !sair | OS ÚNICOS COMANDOS QUE PRECISAM DE EXCLAMAÇÃO "!" SÃO OS DO BOT MUSICAL');
+    message.channel.send('COMANDOS DO SERVIDOR \n \n quemsou == Mensagens Aleatorias Sobre o GAME Bosta Que Você Joga \n !tocar LINKDOYOTUBE == Bot Irá Reproduzir Sua Música \n !sair == Bot Irá Parar de Reproduzir a Música e Irá Sair da Sala \n \n OS ÚNICOS COMANDOS QUE PRECISAM DE EXCLAMAÇÃO "!" SÃO OS COMANDOS PARA REPRODUZIR MÚSICA');
    }
 });
 
