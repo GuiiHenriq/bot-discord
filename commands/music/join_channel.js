@@ -5,9 +5,9 @@ function Play(connection, message) {
   let server = servers[message.guild.id];
   server.dipatcher = connection.playStream(YTDL(server.queue[0], {filter: "audioonly"}));
   server.queue.shift();
-  server.dipatcher.on('end', function() {
+  server.dipatcher.on('end', () => {
     if(server.queue[0]){
-      Play(connection,message);
+      Play(connection, message);
     }
     else {
       connection.disconnect();
